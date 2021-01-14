@@ -7,3 +7,6 @@ while (true) {
     }
     
 }
+while (true) {
+    input
+}
