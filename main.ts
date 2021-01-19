@@ -1,12 +1,13 @@
 while (true) {
     console.log("Sound Level:" + input.soundLevel())
     if (input.soundLevel() > 30) {
-        light.setAll(light.rgb(150, 0, 50))
+        light.showAnimation(light.rainbowAnimation, 500)
     } else {
         light.clear()
     }
     
-}
-while (true) {
-    input
+    if (input.lightLevel() > 70) {
+        music.magicWand.playUntilDone()
+    }
+    
 }
